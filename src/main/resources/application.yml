@@ -1,0 +1,40 @@
+# Spring Boot configuration
+spring:
+  profiles:
+    active: google
+# Spring Security configuration
+security:
+  oauth2:
+    client:
+      clientId: 216752547721-etrl92j55fmdnh761lq32f4qqbnu0cc0.apps.googleusercontent.com
+      clientSecret: 3SGBqD8o9pnqlVlhEC6syWHK
+      accessTokenUri: https://www.googleapis.com/oauth2/v4/token
+      userAuthorizationUri: https://accounts.google.com/o/oauth2/v2/auth
+      clientAuthenticationScheme: form
+      scope:
+        - openid
+        - email
+        - profile
+    resource:
+      userInfoUri: https://www.googleapis.com/oauth2/v3/userinfo
+      preferTokenInfo: true
+# Server configuration
+server:
+ port: 8181
+
+#spring:
+#  datasource:
+#    url: jdbc:h2:file:~/test2;DB_CLOSE_ON_EXIT=FALSE;AUTO_RECONNECT=TRUE
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#    platform: h2
+#    show-sql:true
+#    ddl-auto:update
+#
+#  # enable H2 web console and set url for web console
+#  # http://localhost:8080/console
+#  h2:
+#    console:
+#      enabled: true
+#      path: /console
