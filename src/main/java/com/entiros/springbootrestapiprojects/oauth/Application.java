@@ -36,7 +36,7 @@ public class Application {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("VCC-Heritage-API")
-                .description("This API contains the list of Heritage Cars from the Volvo Cars Corpoartion Company !")
+                .description("This API contains the list of Heritage Cars from the Volvo Cars Corporation Company !")
                 .contact("Entiros Integrations")
                 .licenseUrl("www.entiros.se")
                 .version("1.0")
