@@ -23,7 +23,7 @@ public class HeritageCar {
     @ApiModelProperty(value = "Engine Displacement in cc")
     private double engine;
 
-    //Introducing the dummy constructor
+
     public HeritageCar() {
     }
 
