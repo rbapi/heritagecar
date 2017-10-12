@@ -13,6 +13,8 @@ public interface HeritageCarService  {
 
     HeritageCar saveHeritageCar(HeritageCar heritageCar);
 
+    /*HeritageCar saveHeritageCarbyId(HeritageCar heritageCarId);*/
+
     void deleteHeritageCarById(String heritageCarId);
 
 }

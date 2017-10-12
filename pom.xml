@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.entiros.springbootrestapiprojects</groupId>
-    <artifactId>PSD2-RestAPI</artifactId>
+    <artifactId>heritagecarrestapi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>PSD2-API</name>
-    <description>PSD2-API by Entiros Intergrations</description>
+    <name>HeritageCar</name>
+    <description>VCC Heritage Car API</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
