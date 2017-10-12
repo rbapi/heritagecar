@@ -38,13 +38,6 @@ public class HeritageCarServiceImpl implements HeritageCarService {
         return heritageCarRepository.save(heritageCar);
     }
 
-    /*@Override
-    public HeritageCar saveHeritageCarbyId(String heritageCarId) {
-        logger.debug("saveHeritageCarById called");
-        return heritageCarRepository.savebyId(heritageCarId);
-
-    }*/
-
     @Override
     public void deleteHeritageCarById(String heritageCarId) {
         logger.debug("deleteHeritageCarById called");
@@ -54,4 +47,4 @@ public class HeritageCarServiceImpl implements HeritageCarService {
 
 
 }
-//    findOne(Integer.valueOf(String.valueOf(id)))
+

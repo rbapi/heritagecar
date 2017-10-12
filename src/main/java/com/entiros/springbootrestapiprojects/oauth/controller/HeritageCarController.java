@@ -25,7 +25,7 @@ public class HeritageCarController {
 
     //----------Get All Heritage Cars-----------
 
-    @ApiOperation(value = "Dsiplay a list of all Heritage Cars available", response = HeritageCar.class)
+    @ApiOperation(value = "Display a list of all Heritage Cars available", response = HeritageCar.class)
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Displaying the list of all Heritage Cars in the inventory"),
             @ApiResponse(code = 401, message = "You are not authorized to view the resource"),
