@@ -3,9 +3,7 @@ package com.entiros.springbootrestapiprojects.oauth.controller;
 
 import com.entiros.springbootrestapiprojects.oauth.model.HeritageCar;
 import com.entiros.springbootrestapiprojects.oauth.service.HeritageCarService;
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiResponse;
-import io.swagger.annotations.ApiResponses;
+import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
+@SwaggerDefinition(tags = { @Tag(name = "Volvo Cars Corporation", description = "Heritage Car CRUD Operations") })
 public class HeritageCarController {
 
     private HeritageCarService heritageCarService;
